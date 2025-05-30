@@ -40,6 +40,7 @@ npm install
 
 # Lancer les serveurs
 npm run dev
+```
 
 ## ✨ Aperçu
 
