@@ -22,7 +22,7 @@ Bienvenue sur le dépôt de mon site portfolio, développé en **Vue.js** pour l
 
 - Node.js / Express
 - CORS
-- MongoDB (ou autre base de données)
+- MySQL
 
 ## 📦 Installation locale
 
