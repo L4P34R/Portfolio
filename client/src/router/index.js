@@ -12,22 +12,22 @@ const routes = [
     component : LandingPage,
   },
   {
-    path: '/Présentation',
+    path: '/presentation',
     name: 'Présentation',
     component: HomePage,
   },
   {
-    path: '/Parcours',
+    path: '/parcours',
     name: 'Parcours',
     component: ParcoursPage,
   },
   {
-    path: '/Admin',
+    path: '/admin',
     name: 'Admin',
     component: AdminPage,
   },
   {
-    path: '/Projets',
+    path: '/projets',
     name: 'Projets',
     component: ProjectsPage,
   }

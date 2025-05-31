@@ -2,6 +2,7 @@
   <div class="flex h-screen w-screen overflow-hidden">
     <RouterLink
       v-for="(section, index) in sections"
+      :to="section.link"
       :key="index"
       class="h-full transition-[width] duration-700 ease-in-out overflow-hidden relative cursor-pointer"
       :class="hovered === index ? 'w-[40%]' : hovered !== null ? 'w-[20%]' : 'w-1/4'"
