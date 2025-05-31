@@ -12,8 +12,8 @@
       <img
         :src="section.image"
         alt="section image"
-        class="absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-in-out"
-        :class="hovered !== null && hovered !== index ? 'grayscale contrast-125 blur-sm' : ''"
+        class="absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-out"
+        :class="hovered !== null && hovered !== index ? 'contrast-150 grayscale blur-sm' : ''"
       />
       <div
         :class="[
